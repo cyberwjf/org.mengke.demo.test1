@@ -1,0 +1,11 @@
+# Tags
+**/tags
+
+# Compiled Objects
+**/*.o
+**/main
+
+# OS generated files
+
+**/*.swp
+
