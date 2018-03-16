@@ -1,2 +1,3 @@
-'''bash
+```bash
 solr start -e cloud -noprompt
+```
