@@ -1,6 +1,6 @@
 # Algorithms & Data Structure
 
-##求二叉树节点个数
+## 求二叉树节点个数
 ```c++
 int GetNodeNum(BinaryTreeNode * pRoot)  
 {  
@@ -14,7 +14,7 @@ int GetNodeNum(BinaryTreeNode * pRoot)
     }
 } 
 ```
-##求二叉树的深度
+## 求二叉树的深度
 ```c++
 int GetDepth(BinaryTreeNode * pRoot)  
 {  
@@ -25,7 +25,7 @@ int GetDepth(BinaryTreeNode * pRoot)
     return depthLeft > depthRight ? (depthLeft + 1) : (depthRight + 1);   
 }  
 ```
-##前序遍历二叉树
+## 前序遍历二叉树
 ```c++
 void PreOrderTraverse(BinaryTreeNode * pRoot)  
 {  
@@ -37,7 +37,7 @@ void PreOrderTraverse(BinaryTreeNode * pRoot)
 } 
 ```
 
-##中序遍历二叉树
+## 中序遍历二叉树
 ```c++
 void InOrderTraverse(BinaryTreeNode * pRoot)  
 {  
@@ -49,7 +49,7 @@ void InOrderTraverse(BinaryTreeNode * pRoot)
 } 
 ```
 
-##后序遍历二叉树
+## 后序遍历二叉树
 ```c++
 void PostOrderTraverse(BinaryTreeNode * pRoot)  
 {  
@@ -60,7 +60,7 @@ void PostOrderTraverse(BinaryTreeNode * pRoot)
     PostOrderTraverse(pRoot->m_pRight); // 中序遍历右子树  
 } 
 ```
-##求二叉树中叶子节点的个数
+## 求二叉树中叶子节点的个数
 ```c++
 int GetLeafNodeNum(BinaryTreeNode * pRoot)  
 {  
@@ -73,7 +73,7 @@ int GetLeafNodeNum(BinaryTreeNode * pRoot)
     return (numLeft + numRight);  
 }  
 ```
-##判断两棵二叉树是否结构相同
+## 判断两棵二叉树是否结构相同
 ```c++
 bool StructureCmp(BinaryTreeNode * pRoot1, BinaryTreeNode * pRoot2)  
 {  
@@ -86,7 +86,7 @@ bool StructureCmp(BinaryTreeNode * pRoot1, BinaryTreeNode * pRoot2)
     return (resultLeft && resultRight);  
 }
 ```
-##判断二叉树是不是平衡二叉树
+## 判断二叉树是不是平衡二叉树
 ```c++
 bool IsAVL(BinaryTreeNode * pRoot, int & height)  
 {  
@@ -112,7 +112,7 @@ bool IsAVL(BinaryTreeNode * pRoot, int & height)
 } 
 ```
 
-##求二叉树的镜像
+## 求二叉树的镜像
 
 ```c++
 BinaryTreeNode * Mirror(BinaryTreeNode * pRoot)  
@@ -128,7 +128,7 @@ BinaryTreeNode * Mirror(BinaryTreeNode * pRoot)
 }  
 ```
 
-##求二叉树中两个节点的最低公共祖先节点
+## 求二叉树中两个节点的最低公共祖先节点
 ```c++
 BinaryTreeNode * RebuildBinaryTree(int* pPreOrder, int* pInOrder, int nodeNum)  
 {  
